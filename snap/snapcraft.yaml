@@ -12,7 +12,7 @@ confinement: strict
 
 apps:
   transfer:
-    command: transfer
+    command: transfersh
     plugs: [network, home, removable-media]
 
 parts:
